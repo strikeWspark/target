@@ -10,5 +10,8 @@ public interface ApiInterface {
     @GET("posts")
     Call<List<PostDataPojo>> getPosts();
 
+
+    @GET("photos")
+    Call<List<PhotoPojo>> getPhotos();
     
 }
